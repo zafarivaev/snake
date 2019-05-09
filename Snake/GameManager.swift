@@ -6,6 +6,7 @@ class GameManager{
     var timeExtension: Double = 0.05
     var playerDirection: Int = 4
     var currentScore: Int = 0
+
     
     private func updatePlayerPosition(){
         var xChange = -1
